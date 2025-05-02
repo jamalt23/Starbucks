@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'SoDo Sans';
+    src: url('../font/SoDoSans-Regular.woff') format('woff');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'SoDo Sans';
+    src: url('../font/SoDoSans-Semibold.woff') format('woff');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'SoDo Sans';
+    src: url('../font/SoDoSans-Bold.woff') format('woff');
+    font-weight: 700;
+}

@@ -1,0 +1,32 @@
+#menu-categories {
+    h5 {
+        font-size: 1.1875rem;
+        opacity: .87;
+    }
+
+    li {
+        cursor: pointer;
+        opacity: .58;
+    }
+}
+
+.subcategory img {
+    max-width: 78px;
+    width: 100%;
+}
+
+footer {
+    margin-bottom: var(--crust-height);
+}
+
+@media screen and (min-width: 768px) {
+    main .container-fluid {
+        padding: 2.5rem 8rem 0 8rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .subcategory img {
+        max-width: 112px;
+    }
+}
