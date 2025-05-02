@@ -35,7 +35,7 @@ function renderCategories(categories) {
         category.children.forEach(subcategory => {
             $ul.append(`
                 <li class="fw-normal my-3">
-                    <a href="?subcategory=${subcategory.id}">
+                    <a href="?subcategoryId=${subcategory.id}">
                         ${subcategory.name}
                     </a>
                 </li>
@@ -57,9 +57,7 @@ function renderCategories(categories) {
 }
 
 function renderMenu(subcategory) {
-    $breadcrumb.append(`
-        <li class="breadcrumb-item">${subcategory.name}</li>
-    `).show();
+    $breadcrumb.append(`<li class="breadcrumb-item">${subcategory.name}</li>`).show();
     console.log(subcategory);
     subcategory.children.forEach(type => {
         $menu.append(`<h4 class="border-bottom pb-3">${type.name}</h4>`);
